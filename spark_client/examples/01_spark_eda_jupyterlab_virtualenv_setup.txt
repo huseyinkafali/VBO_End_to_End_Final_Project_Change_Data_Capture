@@ -1,0 +1,14 @@
+## Run docker-compose
+docker-compose up --build -d
+
+## Connect to spark-client container
+docker exec -it spark-client bash
+
+## Start jupyter lab
+jupyter lab --ip 0.0.0.0 --port 8888 --allow-root
+
+## Copy url+token paste browser
+
+## Open notebook
+/opt/examples/notebooks/spark_example_minio.ipynb
+
