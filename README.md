@@ -205,7 +205,7 @@ root@db8b5f6e0e2e:/# spark-submit --master local --packages org.apache.spark:spa
 #Terminal 2
 
 - Capture Changes
-- 
+  
 >>>postgres=# delete from customers1 where "customerId" = 55;
 
 >>>postgres=# UPDATE customers1 SET "customerFName" = 'SAPAYDIN' WHERE "customerId" = 21;
