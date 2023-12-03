@@ -1,4 +1,4 @@
-# VBO Data Engineering Bootcamp Final Project-3: Change Data Capture
+# VBO Data Engineering Bootcamp End to End Final Project-3: Change Data Capture
 
 The task is streaming data from PostgreSQL database through Kafka to Minio object storage. Debezium connector is established on Kafka connect for capturing operational 
 changes in the data. On the other hand, Spark Streaming is used for real time data streming and writing to Minio.
