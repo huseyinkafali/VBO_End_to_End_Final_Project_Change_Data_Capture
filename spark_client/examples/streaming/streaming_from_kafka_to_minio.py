@@ -3,8 +3,8 @@ from pyspark.sql.functions import from_json, col
 from pyspark.sql.types import *
 
 # Initialize Spark Session
-accessKeyId='dataops'
-secretAccessKey='Ankara06'
+accessKeyId='*****'
+secretAccessKey='*****'
 
 # create a SparkSession
 spark = SparkSession.builder \
