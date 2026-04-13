@@ -61,8 +61,8 @@ services:
     networks:
       - vbo
     environment:
-      MINIO_ACCESS_KEY: "dataops"
-      MINIO_SECRET_KEY: "Ankara06"
+      MINIO_ACCESS_KEY: "*****"
+      MINIO_SECRET_KEY: "*****"
     command: server /data --console-address ":9001"
     
   zookeeper:
